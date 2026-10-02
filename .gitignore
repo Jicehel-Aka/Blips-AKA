@@ -1,0 +1,15 @@
+build/
+build-*/
+sdkconfig
+sdkconfig.old
+managed_components/
+dependencies.lock
+__pycache__/
+*.pyc
+# generated at release time by tools/make_sd_audio.py music (~11 MB)
+SD_files/BLIPS/music/*.wav
+# files written while playing from the source tree
+SD_files/BLIPS/CFG.DAT
+SD_files/BLIPS/PROGRESS.DAT
+SD_files/BLIPS/SHOT*.BMP
+SD_files/BLIPS/mylevels/*/
