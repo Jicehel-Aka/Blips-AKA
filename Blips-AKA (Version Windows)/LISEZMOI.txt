@@ -1,0 +1,17 @@
+Blips (version PC) - portage Gamebuino AKA de Blips de Willems Davy
+===================================================================
+
+Lancer :   blips.exe (Windows)     ./blips (Linux : sudo apt install libsdl2-2.0-0)
+
+Le dossier BLIPS (niveaux, sons, musique) doit rester a cote de l'executable.
+La progression et les reglages sont ecrits dans ce dossier (ou dans ~/.blips-aka si le dossier
+est en lecture seule).
+
+Commandes   : fleches ; Entree/Espace/Z = valider (en jeu : changer de joueur) ; Retour arriere/X = retour ;
+              C = recommencer ; D + fleches = regarder autour ; A / R = page precedente / suivante ;
+              Echap ou M = pause (maintenu 1 s : capture d'ecran) ; F11 plein ecran ; Ctrl+Q quitter.
+              Manette : croix + boutons A/B/X/Y, Back = menu, Start = RUN (Start+Back 0,5 s = quitter).
+Options     : --scale N   --fullscreen   --data DIR   --save DIR   --help
+
+Editeur de niveaux : ecran titre > Editeur ; les packs crees sont dans BLIPS/mylevels/<NOM>/.
+Licences et remerciements : CREDITS.md et dossier THIRD_PARTY.
